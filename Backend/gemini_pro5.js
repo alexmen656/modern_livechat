@@ -16,16 +16,16 @@ const model = genAI.getGenerativeModel({
 (async () => {
   setInterval(() => {
     logik("1");
-  }, 2000);
+  }, 1500);
   setInterval(() => {
     logik("2");
-  }, 2000);
+  }, 1500);
   setInterval(() => {
     logik("3");
-  }, 2000);
+  }, 1500);
   setInterval(() => {
     logik("4");
-  }, 2000);
+  }, 1500);
 })();
 
 async function logik(roomId) {
