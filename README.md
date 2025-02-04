@@ -2,6 +2,10 @@
 
 Modern Live Chat is a modern live chat application where users can communicate with each other in real-time. When no other users are online, an smart AI user is always available to chat and hang out with you.
 
+## Demo
+[https://modern-chat.alex.polan.sk](https://modern-chat.alex.polan.sk/)
+Please note that the AI may not be working since the high seas event has already ended. Unfortunately, I need my free Gemini API limits for other projects.
+
 ## Features
 
 - Real-time messaging with other users
