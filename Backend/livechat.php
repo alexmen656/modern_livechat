@@ -44,10 +44,11 @@ if ($method == 'GET') {
             }
         }
 
-
         // Fetch the number of online users
+        $interval = 30;
+        $time_limit = date('Y-m-d H:i:s', time() - $interval);
         $sql = "SELECT COUNT(DISTINCT user_id) as online_count FROM user_online_status 
-                WHERE last_active > NOW() - INTERVAL 10 SECOND";//30 
+                WHERE last_active > '$time_limit'";
         $result = $conn->query($sql);
         $online_count = $result->fetch_assoc()['online_count'];
 
